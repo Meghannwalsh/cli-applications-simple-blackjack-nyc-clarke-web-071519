@@ -36,7 +36,7 @@ end
 
 def hit?(card_total)
   prompt_user
-  anser = get_user_input
+  answer = get_user_input
   if answer == 'h'
     deal_card + card_total
   else
