@@ -34,14 +34,14 @@ def initial_round
   # code #initial_round here
 end
 
-def hit?
+def hit?(card_total)
   prompt_user
   anser = get_user_input
   if answer == 'h'
     deal_card + card_total
   else
     card_total
-  end 
+  end
   # code hit? here
 end
 
