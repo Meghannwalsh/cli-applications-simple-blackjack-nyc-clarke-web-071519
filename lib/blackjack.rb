@@ -38,9 +38,10 @@ def hit?
   prompt_user
   anser = get_user_input
   if answer == 'h'
-    deal_card
-  end
-  card_total
+    deal_card + card_total
+  else
+    card_total
+  end 
   # code hit? here
 end
 
