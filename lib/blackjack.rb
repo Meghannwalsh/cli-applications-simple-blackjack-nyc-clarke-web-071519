@@ -39,7 +39,8 @@ def hit?
   anser = get_user_input
   if answer == 'h'
     deal_card
-  end 
+  end
+  card_total
   # code hit? here
 end
 
